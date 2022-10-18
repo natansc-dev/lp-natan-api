@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_princing_boxes",
+  "info": {
+    "displayName": "princingBox",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer",
+      "required": true,
+      "default": 97
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "priceInstallment": {
+      "type": "decimal",
+      "required": true
+    },
+    "benefits": {
+      "type": "richtext",
+      "default": "Create items as bullets list",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}

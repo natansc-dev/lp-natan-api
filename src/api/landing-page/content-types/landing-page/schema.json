@@ -1,0 +1,86 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "LandingPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "sectionAboutProject": {
+      "displayName": "SectionAboutProject",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project"
+    },
+    "sectionTech": {
+      "displayName": "sectionTech",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech"
+    },
+    "sectionConcepts": {
+      "displayName": "SectionConcepts",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts",
+      "required": false
+    },
+    "sectionModules": {
+      "displayName": "sectionModules",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
+    },
+    "sectionCalendar": {
+      "displayName": "sectionCalendar",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-calendar",
+      "required": true
+    },
+    "princingBox": {
+      "displayName": "princingBox",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.princing-box",
+      "required": true
+    },
+    "sectionAboutUs": {
+      "displayName": "sectionAboutUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-us"
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.section-reviews"
+    },
+    "sectionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq"
+    }
+  }
+}
